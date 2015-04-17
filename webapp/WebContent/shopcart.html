@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>쇼핑 카트</title>
+<style>
+body{
+height:100%;
+background-color:#f3f1e9;
+}
+table{
+width:100%;
+border-collapse:collapse;
+text-align:center;
+}
+table caption{
+color:red;
+text-decoration:underline;
+}
+</style>
+</head>
+<body>
+<form action="#">
+<table border="1">
+<caption>shopping cart</caption>
+<tr>
+<th>품목</th>
+<th>가격</th>
+<th>수량</th>
+<th>합계</th>
+</tr>
+
+<tr>
+<th>티셔츠</th>
+<th>500원</th>
+<th><input type="number" min="0" step="1" value="0"></th>
+<th><input type="text" size="6" value="0"/></th>
+</tr>
+
+<tr>
+<th>컴퓨터</th>
+<th>2,000,000원</th>
+<th><input type="number" min="0" step="1" value="0"></th>
+<th><input type="text" size="6" value="0"/></th>
+</tr>
+
+<tr>
+<th>음악파일</th>
+<th>1,000원</th>
+<th><input type="number" min="0" step="1" value="0"></th>
+<th><input type="text" size="6" value="0"/></th>
+</tr>
+
+<tr>
+<th>영화파일</th>
+<th>5,000원</th>
+<th><input type="number" min="0" step="1" value="0"></th>
+<th><input type="text" size="6" value="0"/></th>
+</tr>
+
+
+</table>
+
+<input type="button" value="계산"/>
+<input type="submit" value="구매"/>
+<input type="reset" value="초기화"/>
+
+
+</form>
+<a href="index.html">back to home </a>
+
+</body>
+</html>

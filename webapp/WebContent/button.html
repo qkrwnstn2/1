@@ -2,20 +2,22 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<style>
+#a{
+display:none;;
+border:1px dotted red;
+}
+#b{
+visibility:visible;
+border:1px dotted red;
+}
+</style>
 <title>Insert title here</title>
 </head>
 <body>
 
-
-<form name="input" action="getid.jsp" method="get">
-물품가격: <input type="text" name="user"><br />
-수량: <input type="text" name="user"><br />
-<input type="button" value="계산"
-	onclick="alert('1000원입니다.')">
-</form>
-<button type="button" onclick="alert('안녕하세요')">
-</button>
-
-
+<h1> visibility 속성</h1>
+<img id="a" src="lion.png" width="150" height="120" alt="lion">
+<img id="b" src="audio.png" width="150" height="120" alt="audio">
 </body>
 </html>
